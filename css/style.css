@@ -1,0 +1,587 @@
+/*** start my framework **/
+html {
+    scroll-behavior: smooth;
+}
+.myGreenbtn {
+    font-weight: bold;
+    background: none;
+    border: 3px solid #004c7d;
+    padding: 10px 30px;
+    margin-left: 40px;
+    margin-top: 15px;   
+}
+.left-floating {float: left;}
+
+/**start main rules  **/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'helveticabold;
+}
+p {color: #666;}
+h2 {color:#546363;}
+.clearfix {clear: both;}
+/** start container here **/
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+/** end contanier here **/
+
+
+/** start header nav  here **/
+
+/*!** start header .slider **! */
+/*header .slider {*/
+    /*background-color:#EEE; */
+    /*height: 600px;*/
+    /*background-image: url("../images/slide1.png"); */
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
+#slider {
+    height:100vh;
+
+}
+.slider img {
+    width: 100%;
+    height: auto;
+}
+/*}*/
+header .slider .intro {
+    text-align: center;
+    color: #FFF;
+}
+header .slider .intro h2{
+    color:white;
+    width: 600px;
+    padding-top: 5px;
+    border-bottom: 1px solid  #30B576;
+    text-shadow: 14px 8px 64px  #30B576;
+    text-align: center;
+    margin:0 auto;
+    font-size: 40px;
+    padding-top: 200px; 
+}
+header .slider button {
+    margin-top: 20px;
+    color:#333;
+    background: none;
+    border: 3px solid #30B576;
+    color: #FFF;
+}
+
+/**end header slider **/ 
+header nav {
+    overflow: hidden;
+    background-color: #004c7d;
+    color: #FFF;
+}
+
+/** end header nav  here **/
+
+header nav .container h2 {
+    color :white;
+    float :left;
+}
+/**end   header h2  here **/
+header nav .container h2 span {color:#30cc78}
+/**Start  header ul  here **/
+img.logo {
+    max-width: 200px;
+    padding: 3px;
+}
+header nav ul {
+    line-height: 3.4em;
+    float: right;
+    list-style: none;
+    padding-left: 0px;
+}
+
+/**end   header h2 ul  here **/
+
+
+
+/**Start  header ul li  here **/
+header nav ul li {
+    display: inline;
+    float:left; padding:10px
+}
+/** end header ul li  here **/
+
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+header nav ul li:active a {
+    color: #30B576;
+
+}
+header nav ul li a:hover {
+    color: #30B576;
+    margin-right: 2px;
+    text-decoration: underline;
+    transition: ease-in-out 500ms;
+}
+
+
+/** start  features   here **/ 
+.features {
+    width: 100%;
+    background-color: #004c7d;
+    padding-top: 50px;
+    color:white;
+    padding-bottom: 150px;
+    overflow: hidden
+}
+.features .feat {
+    padding-RIGHT: 20PX;
+    padding-left: 20PX;
+    width: 33.33333%;
+    float:left;
+    color:#888;
+    height: 150px;
+}
+.features .feat h2 {color : WHite; padding-top: 15px;padding-bottom: 15px}
+.features .feat i {
+    color:white;
+}
+.features .feat > p {
+    text-align: justify;
+    line-height: 1.7;
+    color:#FFF;
+    font-size: 14px
+}
+
+.features .feat .hobbies {color: #555}
+/** end  features here **/
+
+/** start about me here **/ 
+.about-me {
+
+    background-size: cover;
+    padding-top:30px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+.about-me .image {
+    float: left;
+    background-image: url(../images/picture.jpg);
+    margin-top: -31px;
+    background-size: cover;
+    height: 600px;
+    width: 45%;
+    /* height: auto; */
+}
+.about-me .image img {width: 100%;}
+
+.about-me h2 {margin: 20px 0 20px 40px;
+    color: #30ace0;}
+.about-me .info > p {
+    text-align: justify;
+    margin: 0 0 10px 40px;
+    color:#666;
+    line-height: 1.7;
+}
+.about-me > p:last-of-type {
+    margin-top: 30px;
+    color:#666;
+    line-height: 1.6;
+}
+.about-me .info {
+    padding-right: 46px;
+    padding-left: 20px;
+    width: 55%;
+    text-align: left;
+    float: left;
+}
+
+.about-me .info > div {color: #666; }
+.about-me .info  h3 {color: #333;}
+.about-me .info .hobbies {
+    margin: 50px 0 14px 39px;
+     overflow: hidden;
+}
+.about-me .info .hobbies > div {
+    width: 50%;
+    float: left;
+    min-height: 100px;
+}
+.about-me .info .hobbies i {
+    margin-right: 10px;
+    float: left;
+    color: #004c7d;
+}
+/** end about me here **/ 
+
+/** start my sillls here **/
+.my-skills {
+    overflow: hidden;
+}
+
+.my-skills  p{
+    text-align: center;
+    margin-bottom: 30px;
+    color : #888;
+}
+
+.my-skills .icon{
+    width: 143px;
+    height: 143px;
+    line-height: 143px !important;
+    text-align: center;
+    background-color: #004c7d;
+    /* font-size: 50px; */
+    font-weight: normal;
+    color: #ffffff;
+    float: none;
+    overflow: hidden;
+    border-radius: 500px;
+    border: solid 2px #1f6c93;
+    display: block;
+    margin: 0 auto;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.my-skills .services-box ul li {
+    font-size: 15px;
+    text-align: left;
+    list-style-type: circle;
+    line-height: 1.6em;
+    color: #666666;
+}
+.my-skills .services-box{
+    overflow: hidden;
+    max-height: 720px;
+    background: #F7F7F7;
+    padding: 34px;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+.my-skills .services-box:hover h3{
+    color: #1f6c93;
+    transition: ease-in-out 1s;
+}
+
+.my-skills .services-box:hover .my-skills .icon{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+
+}
+.my-skills .services-box:hover{
+
+    box-shadow: 1px 0px 4px #004c7d7a;
+    background: white;
+.my-skills .skills > p:last-of-type    -webkit-transition: all ease-out 500ms ;
+    -moz-transition: all ease-out  500ms;
+    -o-transition: all ease-out 5ms;
+    transition: all ease-out 500ms;
+}
+.my-skills .our-services h3{
+    font-size: 26px;
+    margin: 20px;
+    text-align: center;
+    color: #3f3f3f;
+    /*background: #004c7d;*/
+    /*color: white;*/
+    /*width: 90%;*/
+    /*border: 1px solid #CCC;*/
+    /*padding-top: 14px;*/
+    /*padding-bottom: 14px;*/
+}
+
+.my-skills  .our-services{
+    overflow: hidden;
+}
+.my-skills  .our-services > div {
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 15px;
+}
+
+.my-skills  .our-services > div img {
+    padding: 3px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    width: 90%;
+}
+.my-skills h2{
+text-align: center
+}
+.my-skills p{
+   text-align: justify;
+}
+.progress {
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+ .progress .technique {margin-left: 30px;}
+.progress .technique h3 {color: #555;}
+ .progress .technique div{
+    background: #F2F2F2;
+    height: 20px;
+}
+.progress .technique div span {
+    display: block;
+    height: 100%;
+    color: #FFF;
+    text-align: right;
+    font-weight: bold;
+    line-height: 20px;
+    line-height: 20px;
+    background-color:#30B576;
+}
+.my-skills h2 {margin: 20px 0 20px 40px;}
+.my-skills .skills p {
+    margin: 0 0 10px 40px;
+    color:#666;
+    line-height: 1.7;
+}
+.my-skills .skills > p:last-of-type {
+
+    margin-top: 30px;
+    color: #666;
+    line-height: 1.6;
+    font-size: 13pt;
+    margin-bottom: 25px;
+}
+
+/** end my sillls here **/
+
+/** start resume here **/
+.resume {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.resume h2 {
+    text-align: left;
+}
+.resume p {
+    margin-top: 30px;
+    color: #666;
+    line-height: 1.6;
+    font-size: 13pt;
+    margin-bottom: 25px;
+
+
+}
+.resume button:hover{
+    background: white;
+    margin-right: 2px;
+    transition: all ease-in-out;
+}
+.resume .expertise {
+    width: 40%;
+}
+.resume button {margin-left: 0}
+/** end resume here **/
+/** start my sillls here **/
+.my-education {overflow: hidden;} 
+.my-education .education .main {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my-experience {
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.exp-info span:first-of-type {color:#999}
+.exp-info span:last-of-type {color:#999;}
+.exp {
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+}
+.exp .exp-info h3 {
+    margin-top: 50px;
+    color : #444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.exp .exp-info span {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.exp .exp-info span:last-of-type {
+    display: inline-block;
+    padding: 4px 10px;
+    color: #FFF;
+    background-color:#30B576;
+}
+.exp .exp-info p {margin-bottom: 50Px;}
+.exp  hr {color: #999}
+
+/** end my sillls here **/
+
+/** start testemonials here **/
+.testemonials {
+    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #F2F2F2;
+}
+.testemonials q {
+    
+    color :#666;
+    line-height: 1.8;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: italic; 
+}
+.testemonials span {
+    margin-top: 20px;
+    display: block
+}
+.testemonials ul {list-style: none;padding-left: 0px;text-align: center}
+.testemonials ul li {
+    border-radius: 50px;
+    width:15px;
+    display: inline-block;
+    height: 15px;
+    border:1px solid #30B576;
+}
+.testemonials .active{
+    background:#30B576;
+}
+.testemonials ul li:hover {
+    cursor: pointer;
+    background:#30B576;
+}
+/** start testemonials here **/
+
+/** start portfolio here **/
+.portfolio {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.portfolio h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center
+}
+.portfolio p{
+    text-align: center;
+    margin-bottom: 15px;
+    color : #888;
+}
+
+.portfolio .our-work{
+    overflow: hidden;
+}
+.portfolio .our-work > div {
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 15px;
+}
+
+.portfolio .our-work > div img {
+    padding: 3px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    width: 90%;
+}
+
+/** start end here **/
+
+/** start contact here **/ 
+.contact {
+    padding-top:40px;
+    overflow: hidden;
+    background-color: #004c7d
+}
+.contact h2 {
+    margin-bottom: 14px;
+    color: #FFF;
+}
+.contact p {color: #F7F7F7;
+    line-height: 1.6em;}
+.contact .form, .info {
+    padding-bottom: 40Px;
+    width: 50%;
+    float: left;
+}
+.contact .info  {color : #F7F7F7;}
+
+.contact .info strong {color:white} 
+.contact .form label {
+    display: block;
+    color: #D1D6DA;
+    margin-bottom: 10px;
+}
+.contact .form input[type="text"],input[type="email"],textarea {
+    margin-bottom: 10px;
+    width: 70%;
+    background-color: #00426d;
+    color:#FFF;
+    padding: 10PX;
+    border: none;
+}
+.contact .form textarea {
+    width: 85%;
+    height: 150px;
+}
+.contact .form input[type="submit"] {
+    background: #191E22;
+    color: white;
+    border: 0;
+    padding: 10px 20PX;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+footer {
+    overflow: hidden;
+    text-align: center;
+    background-color: #00426d;
+    color: white;
+    padding: 20px 0;
+}
+footer span {
+    float: left;
+}
+footer .social {
+    display: inline;
+    float: right;
+    
+}
+footer .social ul {
+    list-style: none;
+}
+footer .social ul li{
+    margin-left: 10px;
+    list-style: none;
+    display: inline-block;
+}
+footer .social ul li:hover {
+    color: white;
+}
+    
